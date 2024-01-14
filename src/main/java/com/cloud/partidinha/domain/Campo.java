@@ -2,7 +2,6 @@ package com.cloud.partidinha.domain;
 
 import com.azure.spring.data.cosmos.core.mapping.Container;
 import com.azure.spring.data.cosmos.core.mapping.GeneratedValue;
-import com.azure.spring.data.cosmos.repository.config.EnableReactiveCosmosRepositories;
 import com.cloud.partidinha.utils.Constants;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
