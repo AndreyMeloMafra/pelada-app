@@ -13,7 +13,7 @@ import org.springframework.data.annotation.Id;
 @Data
 @Builder
 @Container(containerName = "campo", ru = "400")
-public class Campo {
+public class Field {
 
     @Id
     @GeneratedValue
