@@ -21,10 +21,6 @@ import java.util.stream.Collectors;
 @RequestMapping("/campos")
 @RequiredArgsConstructor
 public class FieldController {
-
-    private final ValidateFieldsUseCase<Field> validateFieldsUseCase;
-    private final Logger logger = LoggerFactory.getLogger(FieldController.class.getName());
-
     private final CreateFieldUseCase createFieldUseCase;
     private final FindAllFields findAllFields;
     private final FindFieldsByName findFieldsByName;

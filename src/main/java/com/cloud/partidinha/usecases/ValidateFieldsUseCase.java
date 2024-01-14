@@ -21,7 +21,6 @@ public class ValidateFieldsUseCase<T> {
     private final String TITLE = "Erro de validação de campo";
     private final Integer CODE = 400;
 
-
     public void execute(T entity) {
         Set<ConstraintViolation<T>> violations = validator.validate(entity);
 
